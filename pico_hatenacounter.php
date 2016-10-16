@@ -29,7 +29,7 @@ class Pico_HatenaCounter extends AbstractPicoPlugin {
     hatena_counter_screen = screen.width + "x" + screen.height+","+screen.colorDepth;
 //--></script>
 <script type="text/javascript" src="http://counter.hatena.ne.jp/js/counter.js"></script>
-<noscript><img src="http://counter.hatena.ne.jp/TakamiChie/11" border="0" alt="counter"></noscript>
+<noscript><img src="http://counter.hatena.ne.jp/${name}/${id}" border="0" alt="counter"></noscript>
 
 CODE;
 
